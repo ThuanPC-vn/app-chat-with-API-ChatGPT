@@ -90,9 +90,15 @@ ul{
 .chatbox .chat p{
     color: #fff;
     font-size: 1rem;
+    white-space: pre-wrap;
     padding: 12px 16px;
     border-radius: 10px 10px 0px 10px;
     background-color: #724ae8;
+}
+
+.chatbox .chat p.error__chatbot{
+    color: red;
+    background-color: rgb(250, 219, 219);
 }
 
 .chatbox .incoming p{
@@ -118,8 +124,9 @@ ul{
     width: 100%;
     border: none;
     outline: none;
+    max-height: 180px;
     font-size: 1.4rem;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     resize: none;
     padding: 16px 15px 16px 0;
 }

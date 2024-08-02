@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--======================  Favicon ===========================-->
-    <link rel="icon" type="image/x-icon" href="logo_favicon.webp">
+    <link rel="icon" type="image/x-icon" href="./assets/img/logo_favicon.webp">
 
     <!--=============== BOXICON ===============-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <!--======================  CSS ===========================-->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
 
     <title>Chatbox with GPT</title>
 </head>
@@ -18,29 +18,34 @@
     <section class="section__chatbot">
         <div class="chatbot">
             <header>
-                <h2>Simple Chatbot</h2>
+                <h2>Simple Chatbot developed by ThuanPC</h2>
             </header>
-            <ul class="chatbox">
+            <ul class="chatbox" id="chat-box">
+
+
                 <li class="chat incoming">
                     <i class='bx bxs-bot robot__logo'></i>
-                    <p>
-                        Hi there <i class='bx bxs-hand bx-tada' ></i>
-                        <br>
-                        How can I help you to day?
+                    <p>Hi there <i class='bx bxs-hand bx-tada' ></i>
+
+How can I help you to day?
                     </p>
                 </li>
-                <li class="chat outgoing">
+
+
+                <!-- <li class="chat outgoing">
                     <p>Lorem ipsum dolor sit amet consectetur.</p>
-                </li>
+                </li> -->
+
+
             </ul>
             <div class="chat__input">
-                <textarea name="" id="" placeholder="Enter a message right here." required></textarea>
+                <textarea name="" id="input-field" placeholder="Enter a message right here." required></textarea>
                 <span id="send-btn"> <i class='bx bxs-send'></i> </span>
             </div>
         </div>
     </section>
 
     <!--==================  JavaScripts =======================-->
-    <script defer src="main.js" defer></script>
+    <script defer src="./assets/js/main.js" defer></script>
 </body>
 </html>
