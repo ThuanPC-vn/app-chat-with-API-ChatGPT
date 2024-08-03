@@ -103,8 +103,13 @@ ul{
 
 .chatbox .incoming p{
     color: black;
+    max-width: 80%;
     background-color: #f1ff53;
     border-radius: 10px 10px 10px 0px;
+}
+
+.chatbox .incoming .first__hello{
+    width: 30%;
 }
 
 .chatbot .chat__input{
