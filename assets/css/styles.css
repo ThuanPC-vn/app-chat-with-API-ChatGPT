@@ -87,6 +87,13 @@ ul{
     justify-content: flex-end;
 }
 
+.chatbot .outgoing p.time__update{
+    font-size: .8rem;
+    font-weight: 1000;
+    color: #303030;
+    background-color: transparent;
+}
+
 .chatbox .chat p{
     color: #fff;
     font-size: 1rem;
@@ -112,6 +119,29 @@ ul{
     width: 30%;
 }
 
+
+.chatbox .timechat{
+    justify-content: center;
+}
+
+.chatbox .timechat p{
+    font-weight: 1000;
+    color: #303030;
+    background-color: transparent;
+}
+
+/* .chatbox .timeupdate{
+    position: absolute;
+    right: 0;
+}
+
+.chatbox .timeupdate p{
+    font-size: .8rem;
+    font-weight: 1000;
+    color: #303030;
+    background-color: transparent;
+} */
+
 .chatbot .chat__input{
     position: absolute;
     bottom: 5px;
@@ -131,7 +161,7 @@ ul{
     outline: none;
     max-height: 180px;
     font-size: 1.4rem;
-    /* overflow-y: hidden; */
+    /* overflow-y: unset; */
     resize: none;
     padding: 16px 15px 16px 0;
 }
